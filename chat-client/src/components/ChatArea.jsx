@@ -160,7 +160,7 @@ function ChatArea() {
           <div className={"header-text" + (lightTheme ? "" : " dark")}>
             <p className={"con-title" + (lightTheme ? "" : " dark")}>
               {chat_user}
-              {onlineUsers[chat_user] ? " (Online)" : " (Offline)"}
+              {status ? " (Online)" : " (Offline)"}
             </p>
           </div>
         </div>
